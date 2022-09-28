@@ -20,10 +20,10 @@ namespace my_books.Controllers
             _BooksService = BooksService;
         }
 
-        [HttpPost("add-book")]
-        public IActionResult AddBook([FromBody] BookVM book)
+        [HttpPost("add-book-with-authors-and-publisher")]
+        public IActionResult AddBookWithAuthors([FromBody] BookVM book)
         {
-            _BooksService.AddBook(book);
+            _BooksService.AddBookWithAuthorsAndPublisher(book);
             return Ok();
         }
         [HttpGet("get-all-books")]

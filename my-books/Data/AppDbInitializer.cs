@@ -26,7 +26,6 @@ namespace my_books.Data
                             DateRead = DateTime.Now.AddDays(-10),
                             Rate = 5,
                             Genre = "Science",
-                            Author = "Fadi",
                             CoverURL = "https://th.bing.com/th/id/OIP.DiACthTfH1jYPM_5w-fHBAHaLF?w=194&h=290&c=7&r=0&o=5&pid=1.7",
                             DateAdded = DateTime.Now
                         },
@@ -36,7 +35,6 @@ namespace my_books.Data
                             Description = "Talks about networking",
                             IsRead = false,
                             Genre = "Science",
-                            Author = "Taha",
                             CoverURL = "https://th.bing.com/th/id/OIP.DiACthTfH1jYPM_5w-fHBAHaLF?w=194&h=290&c=7&r=0&o=5&pid=1.7",
                             DateAdded = DateTime.Now
                         }
